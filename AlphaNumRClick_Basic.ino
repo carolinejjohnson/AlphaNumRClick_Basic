@@ -24,10 +24,11 @@ void setup()
 {
   pinMode(clock, OUTPUT); // make the clock pin an output
   pinMode(data , OUTPUT); // make the data pin an output3
-  digitalWrite(NS1, LOW);
+  digitalWrite(NS1, LOW); 
   digitalWrite(NS2, LOW);
 }
 
+//Cycles through numbers 0-9
 void loop()
 {
   for(byte i =0; i< sizeof(numbers) ; i+=2){
