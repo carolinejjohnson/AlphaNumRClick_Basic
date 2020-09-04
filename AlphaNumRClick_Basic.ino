@@ -5,15 +5,6 @@
 #define NS1 5
 #define NS2 10
 
-byte zero =  B11111111;
-byte one =   B01100000;
-byte two =   B11011010;
-byte three = B11110010;
-byte four =  B01100110;
-byte five =  B10110110;
-byte six =   B00111110;
-byte seven = B11100000;
-
 //14 Segment LED is made up of two bits. Here are the specific LEDs: 0-DP-N-M-L-K-J-H-G2-G1-F-E-D-C-B-A
 
 byte numbers[20] =  {B00000000, B00111111, B00010000, B01000000, B00000011, B00011011, B00000011, B00001111, B00000011, B00100110, 
